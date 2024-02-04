@@ -1,9 +1,11 @@
 {
   "name": "chai-aur-code",
   "version": "1.0.0",
-  "description": "this is for backend devlopment",
+  "description": "this is for backend devlopement",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev" : "nodemon src/index.js",
     "test": "chai backend"
   },
   "keywords": [
@@ -11,5 +13,8 @@
     "lern"
   ],
   "author": "Bablu",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
